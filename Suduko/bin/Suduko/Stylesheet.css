@@ -1,0 +1,47 @@
+
+
+.label {
+	-fx-font-size: 20.0 px;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+}
+
+/*BUTTONS THAT CANNOT BE CLICKED*/
+#preset {
+	-fx-background-color: linear-gradient(#DADADA, #CACACA);	
+}
+
+/*A BUTTON CONTAINING 0 (which means that there is no elements)*/
+#zero {
+    -fx-text-fill: transparent !important;	
+}
+
+/*BUTTONS FOR THE LEGEND*/
+#legend {
+    -fx-effect: dropshadow( three-pass-box , #0c1e3a , 5.0, 0.0 , 0.0 , 1.0 );
+	-fx-background-color: linear-gradient(#4176cc, #2c65c1);
+    -fx-text-fill: white;
+}
+
+#legendFull {
+    -fx-effect: none;
+	-fx-background-color: linear-gradient(#DADADA, #CACACA);	
+}
+
+
+
+
+
+/*WHEN YOU HOVER ON THE BUTTONS OF THE BOARD*/
+#helper {
+    
+	-fx-background-color: linear-gradient(#a5b1c6, #7e8899);	
+    -fx-text-fill: black;
+	
+}
+
+#helperZero {
+    
+	-fx-background-color: linear-gradient(#c9d0dc, #b1b7c1);
+    -fx-text-fill: transparent !important;		
+}
